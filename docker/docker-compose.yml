@@ -19,7 +19,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'mainnet:http://host.docker.internal:8545'
+      ethereum: 'smartbch-mainnet:https://smartbch.greyh.at'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/kubo:v0.17.0
